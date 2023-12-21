@@ -37,16 +37,16 @@ function App() {
       </div>
 
       <div className="flex justify-center gap-4 my-6">
-        <a className="p-2 hover:bg-highlight-color-light-mode mt-6 rounded-full transition dark:text-text-color-dark-mode" href="#">
+        <a className="p-2 hover:bg-highlight-color-light-mode mt-6 rounded-full transition dark:text-text-color-dark-mode dark:hover:bg-highlight-color-dark-mode" href="#">
           <GithubLogo size={32} />
         </a>
-        <a className="mt-6 hover:bg-highlight-color-light-mode p-2 rounded-full transition dark:text-text-color-dark-mode" href="#">
+        <a className="mt-6 hover:bg-highlight-color-light-mode p-2 rounded-full transition dark:text-text-color-dark-mode dark:hover:bg-highlight-color-dark-mode" href="#">
           <InstagramLogo size={32} />
         </a>
-        <a className="p-2 mt-6 hover:bg-highlight-color-light-mode rounded-full transition dark:text-text-color-dark-mode" href="#">
+        <a className="p-2 mt-6 hover:bg-highlight-color-light-mode rounded-full transition dark:text-text-color-dark-mode dark:hover:bg-highlight-color-dark-mode" href="#">
           <YoutubeLogo size={32} />
         </a>
-        <a className="mt-6 hover:bg-highlight-color-light-mode p-2 rounded-full transition dark:text-text-color-dark-mode" href="#">
+        <a className="mt-6 hover:bg-highlight-color-light-mode p-2 rounded-full transition dark:text-text-color-dark-mode dark:hover:bg-highlight-color-dark-mode" href="#">
           <LinkedinLogo size={32} />
         </a>
       </div>
