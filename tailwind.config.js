@@ -1,4 +1,9 @@
 /** @type {import('tailwindcss').Config} */
+import darkMobile from '/bg-mobile.jpg'
+import lightMobile from '/bg-mobile-light.jpg'
+import bgDarkDesktop from '/bg-desktop.jpg'
+import bgLightDesktop from '/bg-desktop-light.jpg'
+
 export default {
   content: ['./index.html', './src/**/*.tsx'],
   theme: {
@@ -25,10 +30,10 @@ export default {
         'highlight-color-light-mode': '#00000010'
       },
       backgroundImage: {
-        'dark-mobile': "url('bg-mobile.jpg')",
-        'light-mobile': "url('bg-mobile-light.jpg')",
-        'desktop-light': "url('bg-desktop-light.jpg')",
-        'desktop-dark': "url('bg-desktop.jpg')"
+        'dark-mobile': "url('/bg-mobile.jpg')",
+        'light-mobile': "url('/bg-mobile-light.jpg')",
+        'desktop-light': "url('/bg-desktop-light.jpg')",
+        'desktop-dark': "url('/bg-desktop.jpg')"
       },
       // transitionProperty: {
       //   'height': 'height',
